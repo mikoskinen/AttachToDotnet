@@ -178,6 +178,11 @@ namespace AttachToDotnet
                 return false;
             }
 
+            if (process.CommandLine.Contains("rzc.dll", StringComparison.InvariantCultureIgnoreCase))
+            {
+                return false;
+            }
+
             return true;
         }
 

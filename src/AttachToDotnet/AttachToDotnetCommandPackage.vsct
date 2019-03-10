@@ -86,7 +86,7 @@
 
   <KeyBindings>
     <KeyBinding guid="guidCommand1PackageCmdSet" id="Command1Id" editor="guidVSStd97" key1="VK_DELETE" mod1="SHIFT"/>
-    <KeyBinding guid="guidAttachToDotnetCommandPackageCmdSet" id="cmdidReAttachToDotnetCommand" editor="guidVSStd97" key1="VK_DELETE" mod1="Control" mod2="SHIFT"/>
+    <KeyBinding guid="guidAttachToDotnetCommandPackageCmdSet" id="cmdidReAttachToDotnetCommand" editor="guidVSStd97" key1="VK_DELETE" mod1="Control SHIFT"/>
   </KeyBindings>
 
   <Symbols>
