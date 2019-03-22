@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="AttachToDotnet.5311acdb-bf2d-487e-a40d-f0c2aac1f7f1" Version="1.0" Language="en-US" Publisher="Mikael Koskinen" />
+        <Identity Id="AttachToDotnet.5311acdb-bf2d-487e-a40d-f0c2aac1f7f1" Version="1.0.0.1" Language="en-US" Publisher="Mikael Koskinen" />
         <DisplayName>Attach to dotnet.exe</DisplayName>
         <Description xml:space="preserve">Attach to dotnet.exe. Displays complete names of the different dotnet.exe processes, making it simpler to debug your .NET Core application.</Description>
         <Tags>dotnetcore</Tags>
@@ -14,7 +14,7 @@
         <Dependency Id="Microsoft.VisualStudio.MPF.15.0" DisplayName="Visual Studio MPF 15.0" d:Source="Installed" Version="[15.0]" />
     </Dependencies>
     <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,17.0)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
     <Assets>
         <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
